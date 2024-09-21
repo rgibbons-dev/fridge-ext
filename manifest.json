@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Fridge",
+    "version": "0.1.0",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+	"http://localhost/*",
+	"webRequest"
+    ]
+}

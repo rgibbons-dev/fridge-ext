@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      width: 300px;
+      height: 400px;
+      overflow: auto;
+      margin: 0;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .link-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .link-list li {
+	margin: 5px 0;
+	border-radius: 5px;
+	background: lightgrey;
+	display: flex;
+	justify-content: space-between;
+    }
+    a {
+	overflow-x: hidden;
+    }
+    button {
+	width: 50px;
+	height: 25px;
+    }
+    svg {
+	width: 50px;
+	height: 20px;
+	display: block;
+    }
+    path {
+	stroke: black;
+	stroke-width: 2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+    }
+  </style>
+</head>
+<body>
+  <div style="overflow:scroll;">
+    <ul id="url-list" class="link-list"></ul>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
